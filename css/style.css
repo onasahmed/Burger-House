@@ -1,0 +1,505 @@
+@font-face{
+	src: url(../fonts/Bebas_Neue/BebasNeue-Bold.otf);
+	font-family: BebasNeue-Bold;
+}
+@font-face{
+	src:  url(../fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+	font-family: BebasNeue-Regular;
+}
+@font-face{
+	src:  url(../fonts/Alfa_Slab_One/AlfaSlabOne-Regular.ttf);
+	font-family: AlfaSlabOne-Regular;
+}
+@font-face{
+	src: url(../fonts/Montserrat/Montserrat-regular.ttf);
+	font-family: Montserrat-regular;
+}
+/*Common CSS Start*/
+*{
+	margin: 0px ;
+	padding: 0px;
+}
+body{
+	font-family: BebasNeue-Bold ;
+	font-weight: 700;
+	font-size: 20px;
+	color: #3d2514;
+	/*Common Css End*/
+	/*header start*/
+	
+}
+header{
+	padding: 20px 0;
+	background-color:#ffc74c ;
+} 
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.logo{
+	width: 15%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 40%;
+	float: right;
+
+}
+.menu ul{
+	float: right;
+	margin: 12px 0 0 0;
+
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #3d2514;
+	margin: 0px 25px;
+	transition: .3s;
+	border-bottom: 1px solid transparent;
+	display: inline-block;
+
+
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #3d2514;
+
+}
+.menu ul li a:last-child{
+	margin-right: 0px;
+}
+/*header end*/
+/*Banner Start*/
+.banner{
+	padding: 50px 0 0 0;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 650px;
+}
+
+
+.b_content {
+	overflow: hidden;
+	
+}
+
+.b_text {
+	/*border: 1px solid;*/
+	padding: 100px 0px;
+	width: 50%;
+	min-height: 300px;
+	float: left;
+	text-transform: uppercase;
+}
+.b_text p{
+	padding: 5px 10px;
+	font-family: BebasNeue-Regular;
+	font-weight: 400;
+	border: 2px #3d2514  dashed;
+	display: inline-block;
+}
+.b_text h1{
+	font-family: AlfaSlabOne-Regular;
+	font-size: 115px;
+	text-shadow: 3px 3px white;
+	display: inline-block;
+	margin: 0px;
+}
+.b_text h2{
+	font-family: AlfaSlabOne-Regular;
+	font-size: 55px;
+	text-shadow: 3px 3px white;
+	margin: 0px;
+}
+
+.b_image {
+	/*border: 1px solid;*/
+	width: 50%;
+	min-height: 300px;
+	float: right;
+	position: relative;
+}
+.position{
+	
+	width: 80%;
+	min-height: 550px;
+}
+
+
+.burger {
+    position: absolute;
+    z-index: 4;
+    top: 110px;
+    bottom: 0;
+    left: 160px;
+    right: 0;
+}
+.cold-drinks{
+	
+    position: absolute;
+    z-index: 2;
+    top: 1;
+    bottom: 01;
+    left: 460px;
+    right: 0;
+}
+.fries{
+	z-index: 3;
+	position: absolute;
+	top: 1;
+	bottom: ;
+	left: 1;
+	right: 1;
+}
+.glow {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 130px;
+    left: 150px;
+    right: 0;
+}
+.b_shadow{
+	position: absolute;
+	bottom: 0;
+	left: 100px;
+}
+.d_shadow {
+    position: absolute;
+    bottom: 25px;
+    left: 350px;
+}
+.price{
+	font-family: BebasNeue-Bold;
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	z-index: 6;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 50%;
+	bottom: 0;
+	left: 10px;
+	text-align: center;
+
+}
+.text2{
+	position: absolute;
+	width: 160px;
+	height: 160px;
+	/*padding: 20px;*/
+	border-radius: 50%;
+	border: 2px dashed white;
+	bottom: 18px;
+	left: 18px;
+}
+.text2 h2{
+	font-size: 80px;
+	margin: 0px;
+}
+.text2 h2 span{
+	font-size: 40px;
+}
+.text2 p{
+	letter-spacing: 10px;
+
+}
+/*Banner End*/
+/*Try Start*/
+.try{
+	padding: 70px 0;
+}
+.container{
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	/*border: 1px solid;*/
+}
+.single{
+	min-height: 350px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 47%;
+	text-transform: uppercase;
+	color: white;
+	display: inline-block;
+	border-radius: 5px;
+	padding: 20px 0 0 2%;
+}
+.single:first-child{
+	margin-right: 2%;
+}
+
+.float1{
+	float: left;
+
+}
+.float2{
+	float: right;
+	min-height: 155px;
+}
+.margin{
+	margin-bottom: 20px;
+}
+.pic1{
+	background-image: url(../images/pic1.jpg);
+}
+.pic2{
+	background-image: url(../images/pic2.jpg);
+}
+.pic3{
+	background-image: url(../images/pic3.jpg);
+}
+/*Try End*/
+/*choose start*/
+.choose{
+	margin-bottom: 50px;
+}
+.always{
+	text-align: center;
+
+}
+.always p{
+	font-family: Montserrat-regular;
+	font-size: 16px;
+}
+.always p span{
+	font-family: BebasNeue-Bold;
+	font-size: 25px;
+	font-weight: 700;
+	background-color: #ffc045;
+	padding: 10px;
+	text-transform: uppercase;
+	display: inline-block;
+	margin-bottom: 30px;
+}
+.always h1{
+	font-family: AlfaSlabOne-Regular;
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-bottom: 15px;
+}
+/*choose end*/
+/*Order start*/
+.order{
+	overflow: hidden;
+	/*border: 1px solid;*/
+	padding: 50px 0px;
+}
+.one{
+	width: 25%;
+	margin: 0 4.16%;
+	float: left;
+	text-align: center;
+	font-family: Montserrat-regular;
+	font-size: 16px;
+
+}
+.one img{
+	width: 100%;
+}
+.one h2{
+	font-family: BebasNeue-Bold;
+}
+.order-now{
+	text-align: center;
+
+}
+.order-now button{
+	margin: 30px 0;
+	font-family:AlfaSlabOne-Regular;
+	font-size: 16px;
+	/*text-align: center;*/
+	padding: 20px;
+	background-color: #bf2222;
+	border: none;
+	color: white;
+}
+/*Order end*/
+/*Event start*/
+.event{}
+.discover{
+	overflow: hidden;
+	padding: 20px;
+	/*border: 1px solid;*/
+}
+.event-text{
+	padding: 30px 15px;
+	font-family: Montserrat-regular ;
+	font-size: 20px;
+	width: 45%;
+	float: left;
+
+}
+.event-text p:first-child{
+	font-family: BebasNeue-Bold;
+	font-size: 30px;
+
+}
+.event-text h1{
+	font-family: AlfaSlabOne-Regular;
+	font-size: 42px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+}
+.event-pic{
+	width: 45%;
+	float: right;
+
+}
+.event-pic img{
+	width: 100%;
+	/*height: 100%;*/
+}
+/*Event end*/
+/*book start*/
+.book{
+	overflow: hidden;
+	padding: 100px 0px;
+}
+.reserve{
+	/*display: inline-block;*/
+	padding: 30px 0;
+	width: 50%;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-family:BebasNeue-Bold;
+}
+.reserve p{
+	font-family: BebasNeue-Bold;
+	font-size: 30px;
+	text-align: center;
+}
+.reserve h1{
+	font-family:AlfaSlabOne-Regular ;
+	font-size: 50px;
+	text-align: center;
+}
+.reserve form{
+
+}
+.reserve form input{
+	text-transform: uppercase;
+	margin: 20px;
+	width: 40%;
+	border: none;
+	border: 1px solid;
+	background-color: transparent;
+	padding: 20px 10px;
+}
+.reserve form button{
+	text-transform: uppercase;
+	width: 43%;
+	font-family:AlfaSlabOne-Regular;
+	font-size: 16px;
+	color: white;
+	padding: 20px 10px;
+	background-color: #bf2222; 
+	border: none;
+	margin: 20px;
+}
+
+
+.formbottle{
+	position: relative;
+	display: inline-block;
+	width: 20%;
+	float: left;
+}
+.formburger{
+position: absolute;
+    top: -90px;
+    bottom: 0;
+    left: -70px;
+    right: 0;
+    z-index: 5;
+}
+.bottle{
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    left: 140px;
+    right: 0;
+    z-}
+.formplate{
+
+	width: 20%;
+	float: right;
+}
+
+/*book end*/
+/*footer start*/
+footer{}
+.about{
+	width: 45%;
+	float: left;
+	font-family: Montserrat-regular;
+	font-size: 16px;
+	color: white;
+}
+.foot{
+	overflow: hidden;
+	background-image: url(../images/footerbg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 300px;
+	padding: 50px 30px 5px;
+}
+
+
+	
+
+.about p:last-child{
+	margin-top: 80px;
+	font-family: BebasNeue-Bold;
+	color: white;
+}
+
+.flogo{
+	width: 60%;
+	margin-bottom: 50px;
+}
+.flogo img{
+	width: 100%;
+}
+.location{
+	width: 50%;
+	float: right;
+
+}
+.location ul{}
+.location ul li{
+	list-style: none;
+}
+.location ul li a{
+	text-decoration: none;
+	color: white;
+}
+.map{
+	margin:100px 0 100px 50px;
+}
+.social{
+	margin-left: 400px;
+}
+.social ul{
+	border: 1px solid;
+}
+.social ul li{
+	float: left;
+}
+.social ul li a{
+	margin: 0 5px;
+}
